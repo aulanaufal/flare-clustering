@@ -1,0 +1,8 @@
+# data-science
+numpy
+pandas
+# machine-learning
+scikit-learn
+# visualization
+matplotlib
+ipympl
