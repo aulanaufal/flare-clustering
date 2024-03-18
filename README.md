@@ -82,3 +82,19 @@ plots, we would know that the Chebyshev distance might have some over-estimation
 as some parts of the flare rig are considered as the same cluster as the flame.
 
 ## Future Improvements
+This workflow can be replicated to your flare-monitoring image, and deployed to
+automate the flare monitoring process. By monitoring the flare stacks, you can
+quickly identify abnormal conditions, such as an unexpected change in flame size
+or pattern, which could indicate safety issues. Further development could be the
+construction of other algorithm to calculate the flare gas flowrate from the
+flame size. An integration to alert system is also something noteworthy, as it
+ensures immediate response to potential issues.
+
+All in all, an automated system reduces the need for continuous human
+supervision, potentially decreasing monitoring costs, and enabling preventive
+maintenance that will enhance equipment lifetime.
+
+## References
+1. Rozanov, A. (2024, March 15). Semantic Segmentation of Remote Sensing Imagery using k-Means. Towards Data Science. Retrieved from https://towardsdatascience.com/semantic-segmentation-of-remote-sensing-imagery-using-k-means-e4c165d9218e
+
+2. scikit-learn developers. (n.d.). sklearn.metrics.silhouette_score. scikit-learn. Retrieved from https://scikit-learn.org/stable/modules/generated/sklearn.metrics.silhouette_score.html#sklearn.metrics.silhouette_score
